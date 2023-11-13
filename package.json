@@ -1,0 +1,40 @@
+{
+  "name": "moss-drive",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --mode dev",
+    "build": "vite build --mode prod",
+    "p": "npm run build && 4ever-hosting deploy",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.427.0",
+    "@aws-sdk/lib-storage": "^3.427.0",
+    "@quasar/extras": "^1.16.5",
+    "axios": "^1.4.0",
+    "ethers": "^5.7.2",
+    "jazzicon": "^1.5.0",
+    "omit-deep": "^0.3.0",
+    "photoswipe": "^5.4.2",
+    "quasar": "^2.12.5",
+    "uuid": "^9.0.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.2",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@quasar/vite-plugin": "^1.4.1",
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "eslint": "^8.39.0",
+    "eslint-plugin-vue": "^9.11.0",
+    "prettier": "^2.8.8",
+    "sass": "^1.32.12",
+    "sass-loader": "^13.3.2",
+    "vite": "^4.3.9"
+  }
+}
