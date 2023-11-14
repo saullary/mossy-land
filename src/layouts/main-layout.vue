@@ -1,4 +1,19 @@
 <style lang="scss">
+body.body--dark {
+  background-image: url(/img/mossy/bg-top-1.png);
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.bg-active {
+  background: #0000006e;
+  color: #fff;
+}
 $bd: #334155;
 .bdb-1 {
   border-bottom: 1px solid $bd !important;
