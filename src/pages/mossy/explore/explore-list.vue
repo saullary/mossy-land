@@ -5,18 +5,20 @@
 </style>
 
 <template>
-  <div class="mb-6">
-    <q-btn-toggle
-      class="rounded"
-      v-model="type"
-      unelevated
-      toggle-color="primary"
-      :options="[
-        { label: 'For you', value: 'foryou' },
-        { label: 'Popular', value: 'pop' },
-        { label: 'Latest', value: 'latest' },
-      ]"
-    />
+  <div class="mb-6 d-center">
+    <div class="bg-info pa-2 bdrs-100">
+      <q-btn-toggle
+        class="rounded"
+        v-model="type"
+        unelevated
+        toggle-color="primary"
+        :options="[
+          { label: 'For you', value: 'foryou' },
+          { label: 'Popular', value: 'pop' },
+          { label: 'Latest', value: 'latest' },
+        ]"
+      />
+    </div>
   </div>
 
   <div class="row q-col-gutter-md">

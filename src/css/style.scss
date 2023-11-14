@@ -32,7 +32,7 @@ body.body--dark {
 .q-table__card {
   background: transparent;
 }
-.bg-primary, .bg-info {
+.bg-primary {
   color: $dark-color!important;
 }
 .bg-header, .bg-card-1 {
@@ -68,6 +68,10 @@ body.body--dark {
 .q-btn-group.rounded  {
   .q-btn-item {
     border-radius: 100px!important;
+    min-width: 100px;
+    & + .q-btn-item {
+      margin-left: 10px;
+    }
   }
 }
 
