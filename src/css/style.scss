@@ -20,14 +20,15 @@ input {
   }
 }
 
-$dark-color: #0F172A;
+$dark-color: #000;
 :root {
-  --q-dark: #0F172A;
+  --q-dark: #000;
   // --q-dark-page
 }
 body.body--dark {
   background: $dark-color;
 }
+
 .q-table__card {
   background: transparent;
 }

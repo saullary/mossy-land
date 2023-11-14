@@ -35,13 +35,7 @@ body.body--dark {
             :label="menus.find((it) => it.path == path).label"
           >
             <q-list>
-              <q-item
-                v-for="it in menus"
-                :key="it.path"
-                clickable
-                v-close-popup
-                :to="'/mossyland' + it.path"
-              >
+              <q-item v-for="it in menus" :key="it.path" clickable v-close-popup :to="it.path">
                 <q-item-section>
                   <q-item-label>{{ it.label }}</q-item-label>
                 </q-item-section>

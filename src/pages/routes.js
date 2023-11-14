@@ -1,7 +1,7 @@
 const routes = [
   {
     path: "/",
-    component: () => import("../layouts/mossy-layout.vue"),
+    component: () => import("../layouts/main-layout.vue"),
     children: [
       {
         path: "moments",
